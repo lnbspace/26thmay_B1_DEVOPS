@@ -1,3 +1,2 @@
-# Plz don't add any data in main branch 
+# day4 content of linux session 
 
-## Enjoy core learning 
