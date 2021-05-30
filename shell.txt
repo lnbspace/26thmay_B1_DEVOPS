@@ -1,0 +1,20 @@
+--Shell--
+what is shell? interpreator
+
+types of shell -- /etc/shell
+example- /etc
+
+env variable --- SHELL 
+
+HOME , LANG , PATH
+
+ .bashrc -- set Variable permanently 
+ 
+ ----===>  IO redirection 
+ 
+  vim  / cat ---  > >>  2> 2>>    |  grep 
+  
+  
+  /tmp- any user can write  --- only that user can delete
+  
+  
