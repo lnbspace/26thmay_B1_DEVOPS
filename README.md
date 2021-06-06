@@ -163,6 +163,12 @@ tmpfs          tmpfs     490M     0  490M   0% /sys/fs/cgroup
 /dev/loop3     squashfs   3
 
 ```
+## note : user typescript and partition.txt by 
+
+```
+scriptreplay  partitiion.txt  # make sure both file are at same location 
+
+```
 
 
 
