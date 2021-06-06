@@ -1,0 +1,163 @@
+Script started on 2021-06-06 06:13:22+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="114" LINES="30"]
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# 
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# fdisk  -l 
+[1mDisk /dev/loop0: 33.35 MiB, 34959360 bytes, 68280 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop1: 55.46 MiB, 58142720 bytes, 113560 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop2: 70.39 MiB, 73797632 bytes, 144136 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop3: 32.28 MiB, 33841152 bytes, 66096 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop4: 32.1 MiB, 33660928 bytes, 65744 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop5: 55.43 MiB, 58114048 bytes, 113504 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop6: 67.58 MiB, 70848512 bytes, 138376 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/xvda: 8 GiB, 8589934592 bytes, 16777216 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x5198cbc0
+
+[1mDevice[0m     [1mBoot[0m [1mStart[0m [1m     End[0m [1m Sectors[0m [1mSize[0m [1mId[0m [1mType[0m
+/dev/xvda1 *     2048 16777182 16775135   8G 83 Linux
+
+
+[1mDisk /dev/xvdf: 5 GiB, 5368709120 bytes, 10485760 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xcde7942e
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m    End[0m [1mSectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/xvdf1         2048 1026047 1024000  500M 83 Linux
+/dev/xvdf2      1026048 3123199 2097152    1G 83 Linux
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# [H[2J]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# fdisk  -l  /dev/xvdf
+[1mDisk /dev/xvdf: 5 GiB, 5368709120 bytes, 10485760 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xcde7942e
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m    End[0m [1mSectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/xvdf1         2048 1026047 1024000  500M 83 Linux
+/dev/xvdf2      1026048 3123199 2097152    1G 83 Linux
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# fdisk  -l  /dev/xvdf[1P/dev/xvdf[1P /dev/xvdf[1P /dev/xvdf[H[2J]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# fdisk   /dev/xvdf
+[32m
+Welcome to fdisk (util-linux 2.34).
+[0mChanges will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): p
+[1mDisk /dev/xvdf: 5 GiB, 5368709120 bytes, 10485760 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xcde7942e
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m    End[0m [1mSectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/xvdf1         2048 1026047 1024000  500M 83 Linux
+/dev/xvdf2      1026048 3123199 2097152    1G 83 Linux
+
+Command (m for help): n
+Partition type
+   p   primary (2 primary, 0 extended, 2 free)
+   e   extended (container for logical partitions)
+Select (default p): 
+
+Using default response p.
+Partition number (3,4, default 3): 
+First sector (3123200-10485759, default 3123200): 
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (3123200-10485759, default 10485759): +600M
+
+Created a new partition 3 of type 'Linux' and of size 600 MiB.
+
+Command (m for help): w
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# 
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# fdisk   /dev/xvdf-l  /dev/xvdf
+[1mDisk /dev/xvdf: 5 GiB, 5368709120 bytes, 10485760 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xcde7942e
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m    End[0m [1mSectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/xvdf1         2048 1026047 1024000  500M 83 Linux
+/dev/xvdf2      1026048 3123199 2097152    1G 83 Linux
+/dev/xvdf3      3123200 4351999 1228800  600M 83 Linux
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# mkfs.xfs   /dev/xvdf3 
+meta-data=/dev/xvdf3             isize=512    agcount=4, agsize=38400 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+         =                       reflink=1
+data     =                       bsize=4096   blocks=153600, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=1368, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# mkdir  /mnt/cool
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# mount  /dev/xvdf3   /mnt/cool/
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# df  -hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4      7.7G  1.5G  6.3G  19% /
+devtmpfs       devtmpfs  484M     0  484M   0% /dev
+tmpfs          tmpfs     490M     0  490M   0% /dev/shm
+tmpfs          tmpfs      98M  804K   98M   1% /run
+tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
+tmpfs          tmpfs     490M     0  490M   0% /sys/fs/cgroup
+/dev/loop0     squashfs   34M   34M     0 100% /snap/amazon-ssm-agent/3552
+/dev/loop1     squashfs   56M   56M     0 100% /snap/core18/1997
+/dev/loop2     squashfs   71M   71M     0 100% /snap/lxd/19647
+/dev/loop3     squashfs   33M   33M     0 100% /snap/snapd/11588
+/dev/loop4     squashfs   33M   33M     0 100% /snap/snapd/12057
+/dev/loop5     squashfs   56M   56M     0 100% /snap/core18/2066
+/dev/loop6     squashfs   68M   68M     0 100% /snap/lxd/20326
+tmpfs          tmpfs      98M     0   98M   0% /run/user/1000
+/dev/xvdf3     xfs       595M   35M  561M   6% /mnt/cool
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# 
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# 
+]0;root@ip-172-31-18-1: ~root@ip-172-31-18-1:~# exit
+exit
+
+Script done on 2021-06-06 06:14:45+00:00 [COMMAND_EXIT_CODE="0"]
