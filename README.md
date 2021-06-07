@@ -2,4 +2,4 @@
 
 ## Enjoy core learning 
 
-<img src=partions.png>
+<img src=partition.png>
