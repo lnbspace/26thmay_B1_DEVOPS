@@ -32,5 +32,5 @@ ubuntu@ip-172-31-51-76:~/devops_project$
 
 ### POrt forwarding in container 
 
-<img src="portf.png">
+<img src="porft.png">
 
