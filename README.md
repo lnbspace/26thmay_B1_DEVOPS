@@ -12,3 +12,10 @@
 
 <img src="bang.png">
 
+## After build docker image from dockerfile present in repo 
+
+### creating container 
+
+```
+docker  run -itd --name project  -p 1234:80 -v /home/ubuntu/devops_project/webcode:/var/www/html   -v /home/ubuntu/devops_project/webbackend:/var/www/cgi-bin/   dockerashu/devops:projectv1
+```
